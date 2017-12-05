@@ -1,4 +1,4 @@
-#!/bin/awk -f
+#!/usr/bin/env awk -f
 {
     split($0, chars, "")
     sum = 0
